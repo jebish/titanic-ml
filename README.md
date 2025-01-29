@@ -10,7 +10,7 @@ A complete, modular, and scalable ML system to predict passenger survival on the
 
 ## 📂 Project Structure
 
-
+```
 titanic-ml-project/
 │-- src/                  # Source code
 │   │-- __init__.py       
@@ -26,8 +26,7 @@ titanic-ml-project/
 │-- data/                 # Directory for dataset (not included)
 │-- requirements.txt      # Python dependencies
 │-- README.md             # Project documentation
-
-
+```
 ---
 
 ## 📊 Dataset
@@ -69,13 +68,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-###3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-###4️⃣ Download the Dataset
+### 4️⃣ Download the Dataset
 
 Download & Extract the [dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset/data) and place the ".csv" file inside the data/ folder.
 
@@ -83,34 +82,34 @@ Alternatively, you can provide a dataset path as an argument.
 
 <h1>🚀 Running the Project</h1>
 
-###1️⃣ Train Models
+### 1️⃣ Train Models
 
 ```bash
 python -m src.train
 ```
 
-###2️⃣ Evaluate Models
+### 2️⃣ Evaluate Models
 
 ```bash
 python -m src.evaluate
 ```
 
-###3️⃣ Perform Inference (User Input)
+### 3️⃣ Perform Inference (User Input)
 
 ```bash
 python -m src.inference
 ```
 
-##🔥 Perform Train, Evaluation, and Inference at once
+## 🔥 Perform Train, Evaluation, and Inference at once
 
 ```bash
 python main.py   #user data/Titanic-Dataset.csv as data
 python main.py --data "your_data_location" #Provide another location for dataset
 ```
 
-##📈 Model Performance
+## 📈 Model Performance
 
-###=== Logistic Regression ===
+### === Logistic Regression ===
 ```
               precision    recall  f1-score   support
            0       0.88      0.81      0.84       105
@@ -121,7 +120,7 @@ python main.py --data "your_data_location" #Provide another location for dataset
 weighted avg       0.83      0.82      0.82       179
 ```
 
-###=== Random Forest Model ===
+### === Random Forest Model ===
 ```
               precision    recall  f1-score   support
            0       0.83      0.87      0.85       105
@@ -132,7 +131,7 @@ weighted avg       0.83      0.82      0.82       179
 weighted avg       0.81      0.82      0.81       179
 ```
 
-###=== Neural Network Model ===
+### === Neural Network Model ===
 ```
               precision    recall  f1-score   support
            0       0.80      0.84      0.82       105
