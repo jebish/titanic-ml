@@ -144,8 +144,8 @@ weighted avg       0.78      0.78      0.78       179
 
 ## 💡Future Improvements
 
--⌛ Hyperparameter tuning (Grid Search / Bayesian Optimization)
--⌛ More advanced models (XGBoost, SVM)
--⌛ Deployment (Flask API, Streamlit, or FastAPI)
+- ⌛ Hyperparameter tuning (Grid Search / Bayesian Optimization)
+- ⌛ More advanced models (XGBoost, SVM)
+- ⌛ Deployment (Flask API, Streamlit, or FastAPI)
 
 <h1>📝By Jebish7</h1>
