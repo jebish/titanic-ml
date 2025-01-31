@@ -103,7 +103,7 @@ python -m src.inference
 ## 🔥 Perform Train, Evaluation, and Inference at once
 
 ```bash
-python main.py   #user data/Titanic-Dataset.csv as data
+python main.py   #uses data/Titanic-Dataset.csv as data
 python main.py --data "your_data_location" #Provide another location for dataset
 ```
 
